@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Quanta of Entropy</title>
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://entron.github.io/blog/"/>
   <updated>2016-12-13T20:10:39.852Z</updated>
