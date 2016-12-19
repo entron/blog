@@ -447,7 +447,7 @@ h6 {
       display: inline-block;
       position: relative;
       padding-left: 0;
-      padding-right: 20px;
+      padding-right: 25px;
       font-family: Athelas, STHeiti, Microsoft Yahei, serif; }
       .header .site-nav .menu .menu-item {
         display: inline-block;
@@ -478,13 +478,12 @@ h6 {
       .header .site-nav .menu .menu-search {
         display: inline-block;
         position: absolute;
-        top: calc(50% - 3px);
-        right: -2px;
+        top: 0;
+        right: 0;
         width: 1em;
-        height: 20px;
+        height: 1.5em;
         background: #fefefe;
         overflow: hidden;
-        transform: translateY(-50%);
         transition-duration: 0.2s;
         transition-property: width;
         transition-timing-function: ease-out; }
@@ -494,13 +493,13 @@ h6 {
           border: 0;
           outline: 0; }
         .header .site-nav .menu .menu-search.expanded {
-          right: -10px;
           width: 100%;
-          padding: 5px 2px 5px 8px;
+          height: 100%;
+          padding-left: 5px;
           margin: 0;
-          line-height: 20px;
           border: 1px solid #e6e6e6;
-          border-radius: 50px; }
+          border-radius: 50px;
+          box-sizing: border-box; }
       .header .site-nav .menu .menu-item-link {
         font-size: 18px; }
   @media screen and (max-width: 800px) {
